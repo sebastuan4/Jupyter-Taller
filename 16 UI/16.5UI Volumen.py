@@ -13,7 +13,9 @@ class ventana:
         btn_cerrar= Button(top,text="Cerrar",command=top.destroy).pack()
         btn = Button(ventana.root,text="Volumen",command=open).pack(padx=50,pady=50)
     def mostrar():
+        ventana.open()
         ventana.root.mainloop()
+       
 
 ventana.mostrar()
 

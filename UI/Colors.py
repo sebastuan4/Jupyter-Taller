@@ -6,4 +6,4 @@ class btn():
     HoverBG="#3d3d3d"
     Width=50
 class frm():
-    Background="black"
+    BackGround="black"
