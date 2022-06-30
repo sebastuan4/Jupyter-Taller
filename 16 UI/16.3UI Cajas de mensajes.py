@@ -1,6 +1,8 @@
 from tkinter import *
 from tkinter import messagebox
 from tkinter.ttk import Labelframe
+
+from matplotlib.pyplot import title
 class message:
     root=Tk()
    
@@ -11,7 +13,6 @@ class message:
     frame=Labelframe(root,text="Text",pad=20)
     Button(frame,text="PopUp",command=popUp).pack()
     frame.pack(padx=20,pady=20)
-    
 
 message.root.mainloop()
 

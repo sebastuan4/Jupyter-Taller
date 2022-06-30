@@ -11,7 +11,7 @@ class ventana:
         vertical.pack()
         lbl_volume=Label(top,textvariable=volume).pack()
         btn_cerrar= Button(top,text="Cerrar",command=top.destroy).pack()
-        btn = Button(root,text="Volumen",command=open).pack(padx=50,pady=50)
+        btn = Button(ventana.root,text="Volumen",command=open).pack(padx=50,pady=50)
     def mostrar():
         ventana.root.mainloop()
 

@@ -6,11 +6,11 @@ class image_galery:
     #Ajustes visuales---------------------------------------------------------------------------------------------------------
     root.title("Galeria de fotos")
     root.resizable(1,1)
-    root.iconbitmap(r'C:\Users\sebas\Desktop\Jupyter\python.ico')
+    root.iconbitmap(r'C:\Users\sebas\Desktop\Jupyter\16 UI\img\python.ico')
     #root.geometry("840x840")
 
     #Agregando una imagen con polimorfismo
-    img_dirs=[r"C:\Users\sebas\Desktop\Jupyter\python.png",r"C:\Users\sebas\Desktop\Jupyter\python2.png",r"C:\Users\sebas\Desktop\Jupyter\python3.jpeg"]
+    img_dirs=[r"C:\Users\sebas\Desktop\Jupyter\16 UI\img\python.png",r"C:\Users\sebas\Desktop\Jupyter\16 UI\img\python2.png",r"C:\Users\sebas\Desktop\Jupyter\16 UI\img\python3.jpeg"]
     def mostrar_imagen():  
         global img_resized
         my_img = Image.open(image_galery.img_dirs[image_galery.index_Image])

@@ -1,7 +1,6 @@
 from tkinter import *
-from tokenize import String
 
-class ventana:
+class ventana():
     root=Tk()
     #Checkbox
     var=StringVar()

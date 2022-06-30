@@ -1,6 +1,3 @@
-from lib2to3.pgen2.driver import Driver
-from multiprocessing import connection
-from grpc import server
 import pypyodbc as odbc
 
 driverName = "SQL Server"
