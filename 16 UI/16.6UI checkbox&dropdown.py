@@ -4,10 +4,14 @@ class ventana():
     root=Tk()
     #Checkbox
     var=StringVar()
+    var2=StringVar()
     chk1=Checkbutton(root,text="Check 1",variable=var,onvalue="True",offvalue="False")
+    chk2=Checkbutton(root,text="Check 2",variable=var2,onvalue="True",offvalue="False")
     chk1.deselect()
     chk1.pack()
+    chk2.pack()
     lbl=Label(root,textvariable=var).pack()
+    lbl=Label(root,textvariable=var2).pack()
 
     #Dropdown
     option=StringVar()
