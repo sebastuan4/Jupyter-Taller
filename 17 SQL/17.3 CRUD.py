@@ -1,5 +1,4 @@
 import pypyodbc as odbc
-
 driverName = "SQL Server"
 serverName ="SEBASTUA4\SQLEXPRESS"
 databaseName ='primeraBase'
