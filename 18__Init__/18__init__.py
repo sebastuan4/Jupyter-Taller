@@ -5,5 +5,6 @@ class peliculas():
         self.idioma=idioma
         self.trailerURL=trailer
 
-toy_story=peliculas("Toy Story",8.9,"Español","https://fokfoekfeo")
-print(toy_story.idioma)
+    def start(self):
+        toy_story=peliculas("Toy Story",8.9,"Español","https://fokfoekfeo")
+        toy_story.idioma

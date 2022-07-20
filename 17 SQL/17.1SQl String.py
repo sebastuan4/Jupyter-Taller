@@ -1,11 +1,13 @@
-import pypyodbc as odbc
 
+import pypyodbc as odbc
 driverName = "SQL Server"
-serverName ="SEBASTUA4\SQLEXPRESS"
+myServerAddress ="SEBASTUA4\SQLEXPRESS"
 databaseName ='primeraBase'
-#Driver={SQL Server};Server=myServerAddress;Database=myDataBase;Trusted_Connection=Yes;
+myUsername="clase"
+myPassword="clase"
 #Creamos el string de conexion como tenemos arriba
-connection_string = f"DRIVER={driverName}; SERVER={serverName}; DATABASE={databaseName}; Trust_Connection=yes;"
+connection_string = f"Driver={driverName};Server={myServerAddress},1433;Database={databaseName};User Id={myUsername};Password={myPassword};"
 conn = odbc.connect(connection_string)
 print(conn)#Comprobamos que la conexion funciona
+
 
