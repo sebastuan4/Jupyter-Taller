@@ -10,7 +10,7 @@ usuarios={'Maria':['Alejandra Vargas','mariale19','Femenino']
 ,'Alan':['Chacon Rokas','susu36','Femenino']
 ,'Richard':['Chacon Rokas','susu36','Femenino']}
 
-@app.route('/')
+@app.route('/')#Url nuevo
 def index():
     return render_template('index.html',numero_empleados=empleados[0])
 
