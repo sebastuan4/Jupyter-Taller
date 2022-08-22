@@ -8,8 +8,7 @@
 #env/Scrips/Activate
 #static-css
 #templates
-from tkinter.tix import Tree
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template
 import os
 app = Flask(__name__)
 empleados=['Maria','Kimberly']
