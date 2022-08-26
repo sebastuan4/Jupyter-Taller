@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="CSS\materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="CSS\estilos.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+<!--Operadores-->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card purple darken-4">
+      <div class="card-content white-text">
+        <span class="card-title"><h4>Operadores</h4></span>
+        <blockquote style="border-color: green;">
+          <p class="flow-text" id="suma"></p>
+          <p class="flow-text" id="resta"></p>
+          <p class="flow-text" id="multiplicacion"></p>
+          <p class="flow-text" id="division"></p>
+          <p class="flow-text" id="exponente"></p>
+          <p class="flow-text" id="modulo"></p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Funciones-->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card purple darken-4">
+      <div class="card-content white-text">
+        <span class="card-title"><h4><h4>Funciones</h4></h4></span>
+        <blockquote style="border-color: green;">
+          <p class="flow-text" id="Funcion"></p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Objetos-->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card purple darken-4">
+      <div class="card-content white-text">
+        <span class="card-title"><h4><h4>Objetos</h4></h4></span>
+        <blockquote style="border-color: green;">
+          <p class="flow-text" id="forma1"></p>
+          <p class="flow-text" id="forma2"></p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+   
+<!--Eventos-->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card purple darken-4">
+      <div class="card-content white-text">
+        <span class="card-title"><h4><h4>Eventos</h4></h4></span>
+        <blockquote style="border-color: green;">
+          <a class="waves-effect waves-light btn" onclick="document.getElementById('label').innerHTML=Date()">Obtener Fecha</a>
+          <p id="label"></p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Bucles-->
+<!--For-->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card purple darken-4">
+      <div class="card-content white-text">
+        <span class="card-title"><h4><h4>Bucle For</h4></h4></span>
+        <blockquote style="border-color: green;">
+          <a class="waves-effect waves-light btn" onclick="For()">For</a>
+          <a class="waves-effect waves-light btn" onclick="Forin()">For In</a>
+          <a class="waves-effect waves-light btn" onclick="Forof()">For Off</a>
+          <p id="FOR"></p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+<!--While-->
+<div class="row">
+  <div class="col s12 m6">
+    <div class="card purple darken-4">
+      <div class="card-content white-text">
+        <span class="card-title"><h4><h4>Bucle While</h4></h4></span>
+        <blockquote style="border-color: green;">
+          <a class="waves-effect waves-light btn" onclick="While()">While</a>
+          <a class="waves-effect waves-light btn" onclick="Dowhile()">DO While</a>
+          <a class="waves-effect waves-light btn" onclick="Break()">Break</a>
+          <p id="While"></p>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <body>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="JS\javascript.js"></script>
+    <script type="text/javascript" src="JS\materialize.min.js"></script>
+  </body>
+</html>

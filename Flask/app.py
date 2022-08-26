@@ -10,6 +10,10 @@ def pagina():
 def index():
    return render_template("login.html")
 
+@app.route("/info")
+def home():
+    return render_template("index.html")
+
 @app.route("/<int:numero>",)
 def index_numero(numero):
     return(f"Hola bienvenidos a la pagina principal {numero}")
