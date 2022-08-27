@@ -67,7 +67,7 @@ Do while
 */
 function While(){
     let i=0
-    while (i<10){
+    while (i<10){ 10
         i++
         document.getElementById("While").innerHTML=i
     }
@@ -88,6 +88,17 @@ function Break(){
         document.getElementById("While").innerHTML="Pero no aqui"
     }
 }
+
+
+var peliculas=new Array();
+function movie(){
+    do{
+        var llave=prompt("Digite el nombre de una pelicula");
+        peliculas.push(llave);
+    }while(llave!="ACABAR");
+    console.log("La pelicula digitada es:"+peliculas);
+}
+
 
 
 

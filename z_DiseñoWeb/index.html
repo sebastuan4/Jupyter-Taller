@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+  <!--HOLA USO GITHUB-->
   <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
 
+<body onload="movie()">
 <!--Operadores-->
 <div class="row">
   <div class="col s12 m6">
@@ -66,7 +68,7 @@
       <div class="card-content white-text">
         <span class="card-title"><h4><h4>Eventos</h4></h4></span>
         <blockquote style="border-color: green;">
-          <a class="waves-effect waves-light btn" onclick="document.getElementById('label').innerHTML=Date()">Obtener Fecha</a>
+          <a class="waves-effect waves-light btn" onload="document.getElementById('label').innerHTML=Date()">Obtener Fecha</a>
           <p id="label"></p>
         </blockquote>
       </div>
@@ -108,7 +110,7 @@
   </div>
 </div>
 
-  <body>
+
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="JS\javascript.js"></script>
